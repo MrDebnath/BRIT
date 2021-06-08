@@ -8,6 +8,11 @@ namespace BRIT.DevTest.Function.Contracts
 {
     public class InstructionSet
     {
+        public InstructionSet(IEnumerable<Instruction> instructions)
+        {
+            Instructions = instructions;
+        }
+
         public IEnumerable<Instruction> Instructions { get; set; }
     }
 }

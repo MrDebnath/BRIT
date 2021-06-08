@@ -36,15 +36,12 @@ namespace BRIT.DevTest.Function
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
+
             try
             {
                 var requestBody = await new StreamReader(req.Body).ReadToEndAsync();
-                //sanitize
-                requestBody = requestBody.Trim('\r', '\n');
                 var request = new InstructionCalculatorRequest(requestBody);
-
                 var response = await Mediator.Send(request);
-
                 return new OkObjectResult(response.Output);
             }
             catch (InstructionFormatException ex)
