@@ -6,4 +6,3 @@ C:\Users\ADebnath\source\repos\BRIT\DevTest\src\BRIT.DevTest.Function\BRIT.DevTe
 C:\Users\ADebnath\source\repos\BRIT\DevTest\src\BRIT.DevTest.Function\BRIT.DevTest.Function.Contracts\obj\Debug\netcoreapp2.0\BRIT.DevTest.Function.Contracts.csproj.CoreCompileInputs.cache
 C:\Users\ADebnath\source\repos\BRIT\DevTest\src\BRIT.DevTest.Function\BRIT.DevTest.Function.Contracts\obj\Debug\netcoreapp2.0\BRIT.DevTest.Function.Contracts.dll
 C:\Users\ADebnath\source\repos\BRIT\DevTest\src\BRIT.DevTest.Function\BRIT.DevTest.Function.Contracts\obj\Debug\netcoreapp2.0\BRIT.DevTest.Function.Contracts.pdb
-C:\Users\ADebnath\source\repos\BRIT\DevTest\src\BRIT.DevTest.Function\BRIT.DevTest.Function.Contracts\obj\Debug\netcoreapp2.0\BRIT.DevTest.Function.Contracts.csprojAssemblyReference.cache
