@@ -34,7 +34,7 @@ Please include unit tests and demonstrate good architectural principles. If you 
 
 # How to Run?
 
-Close the repo and start run.
+Clone the repo and start run.
 Use postman to post a file on the endpoint - postman collection added to DevTest\postman folder.
 
 ![image](https://user-images.githubusercontent.com/37901131/121161200-a8304880-c844-11eb-9042-a7066b011269.png)
