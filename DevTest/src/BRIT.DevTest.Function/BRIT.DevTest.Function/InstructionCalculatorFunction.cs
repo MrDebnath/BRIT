@@ -62,7 +62,8 @@ namespace BRIT.DevTest.Function
             catch(Exception ex)
             {
                 log.LogError(ex.Message, ex);
-                throw;
+
+                return new StatusCodeResult((int)HttpStatusCode.InternalServerError);
             }
         }
     }
