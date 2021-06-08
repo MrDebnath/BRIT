@@ -12,9 +12,13 @@
 
   <ItemGroup>
     <None Remove="Mapper\instructions.txt" />
+    <None Remove="TestData\instructions2.txt" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="TestData\instructions2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="TestData\instructions.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

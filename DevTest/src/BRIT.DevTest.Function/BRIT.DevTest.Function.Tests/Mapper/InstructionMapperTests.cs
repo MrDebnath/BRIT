@@ -18,7 +18,23 @@ namespace BRIT.DevTest.Function.Tests.Mapper
 
         [Theory]
         [ClassData(typeof(InstructionsTestData))]
-        public void CanMapInstructions(
+        public void CanMapFirstInstructions(
+            string instructions
+            )
+        {
+            //Arrange
+            var lineCount = instructions.Split(Environment.NewLine).Count();
+
+            //Act
+            var actual = _sut.Map(instructions).Result;
+
+            //Assert
+            Assert.AreEqual(lineCount, actual.Instructions.Count());
+        }
+
+        [Theory]
+        [ClassData(typeof(InstructionsTestData2))]
+        public void CanMapSecondInstructions(
             string instructions
             )
         {

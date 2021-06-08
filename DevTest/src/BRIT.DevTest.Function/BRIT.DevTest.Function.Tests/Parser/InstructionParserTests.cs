@@ -19,7 +19,7 @@ namespace BRIT.DevTest.Function.Tests.Parser
 
         [Theory]
         [ClassData(typeof(InstructionsTestData))]
-        public void CanParseInstructionsTest(
+        public void CanParseFirstInstructionsTest(
             string instructions
             )
         {
@@ -31,6 +31,22 @@ namespace BRIT.DevTest.Function.Tests.Parser
 
             //Assert
             Assert.Equals(output, 15);
+        }
+
+        [Theory]
+        [ClassData(typeof(InstructionsTestData2))]
+        public void CanParseSecondInstructionsTest(
+            string instructions
+            )
+        {
+            //Arrange
+            var instructionSet = _instructionMapper.Map(instructions).Result;
+
+            //Act
+            var output = _sut.Parse(instructionSet);
+
+            //Assert
+            Assert.Equals(output, 45);
         }
     }
 }
