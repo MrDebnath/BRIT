@@ -39,6 +39,9 @@ Use postman to post a file on the endpoint - postman collection added to DevTest
 
 ![image](https://user-images.githubusercontent.com/37901131/121161200-a8304880-c844-11eb-9042-a7066b011269.png)
 
+# Tests
+Following unit tests are available in the unittests project
+![image](https://user-images.githubusercontent.com/37901131/121204774-0a05a800-c86f-11eb-83be-7759b48a4829.png)
 
 
 
