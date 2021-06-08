@@ -7,7 +7,7 @@ namespace BRIT.DevTest.Function.Service.Helpers
 {
     public static class InstructionValidator
     {
-        public static void LineValidator(string line, string[] parts, out OperationEnum operation, out decimal number)
+        public static void LineValidator(string line, string[] parts, out OperationEnum operation, out double number)
         {
             if (!(parts.Count() == 2))
             {
@@ -19,7 +19,7 @@ namespace BRIT.DevTest.Function.Service.Helpers
                 throw new InstructionFormatException($"Instruction operation must be one of [{string.Join(", ", Enum.GetNames(typeof(OperationEnum)))}] instead of '{parts[0]}'");
             }
 
-            if (!decimal.TryParse(parts[1], out number))
+            if (!double.TryParse(parts[1], out number))
             {
                 throw new InstructionFormatException($"Instruction operand must be a number instead of '{parts[1]}'");
             }

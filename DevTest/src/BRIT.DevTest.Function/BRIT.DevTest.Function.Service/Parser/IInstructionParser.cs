@@ -8,6 +8,6 @@ namespace BRIT.DevTest.Function.Service.Parser
 {
     public interface IInstructionParser
     {
-        public Task<decimal> Parse(InstructionSet instructionSet);
+        public Task<double> Parse(InstructionSet instructionSet);
     }
 }

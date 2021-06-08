@@ -6,6 +6,6 @@ namespace BRIT.DevTest.Function.Service.Handlers.InstructionCalculatorRequest
 {
     public class InstructionCalculatorResponse
     {
-        public decimal Output { get; set; }
+        public double Output { get; set; }
     }
 }

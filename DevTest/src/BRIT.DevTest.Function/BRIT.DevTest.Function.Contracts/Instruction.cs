@@ -2,13 +2,13 @@
 {
     public class Instruction
     {
-        public Instruction(OperationEnum operation, decimal number)
+        public Instruction(OperationEnum operation, double number)
         {
             Operation = operation;
             Number = number;
         }
 
         public OperationEnum Operation { get; set; }
-        public decimal Number { get; set; } 
+        public double Number { get; set; } 
     }
 }

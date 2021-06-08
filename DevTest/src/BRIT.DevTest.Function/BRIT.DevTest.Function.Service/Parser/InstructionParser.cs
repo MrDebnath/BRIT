@@ -8,10 +8,10 @@ namespace BRIT.DevTest.Function.Service.Parser
 {
     public class InstructionParser : IInstructionParser
     {
-        public async Task<decimal> Parse(InstructionSet instructionSet)
+        public async Task<double> Parse(InstructionSet instructionSet)
         {
             var instructions = instructionSet.Instructions.ToList();
-            decimal output = instructions.First().Number;
+            var output = instructions.First().Number;
 
             for (int i = 0; i < instructions.Count(); i++)
             {

@@ -25,7 +25,7 @@ namespace BRIT.DevTest.Function.UnitTests.Parser
                     apply 5", 45)]
         public async Task CanParseInstructionsTest(
             string instructions,
-            decimal expeted
+            double expeted
             )
         {
             //Arrange
