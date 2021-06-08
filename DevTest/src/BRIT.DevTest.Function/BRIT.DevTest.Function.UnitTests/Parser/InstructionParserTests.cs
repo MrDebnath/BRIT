@@ -46,7 +46,7 @@ namespace BRIT.DevTest.Function.UnitTests.Parser
         [InlineData(@"multiply 9 
                     divide 0
                     apply 5",
-            "Number on line '2' must be a number instead of 0")]
+            "Division by zero - number on line '2' must be a number instead of 0")]
         public async Task CanRaiseCorrectErrorsOnInvalidInstructions(
             string instructions,
             string expectedMessage

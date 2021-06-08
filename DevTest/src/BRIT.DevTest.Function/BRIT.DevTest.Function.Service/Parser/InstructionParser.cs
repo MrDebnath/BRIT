@@ -41,7 +41,7 @@ namespace BRIT.DevTest.Function.Service.Parser
                         {
                             if (output == 0)
                             {
-                                throw new InstructionFormatException($"Number on line '{i + 1}' must be a number instead of 0");
+                                throw new InstructionFormatException($"Division by zero - number on line '{i + 1}' must be a number instead of 0");
                             }
 
                             output = operand / output;
