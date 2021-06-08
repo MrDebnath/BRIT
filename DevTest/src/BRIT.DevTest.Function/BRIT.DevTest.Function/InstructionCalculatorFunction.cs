@@ -14,7 +14,6 @@ using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Attributes;
 using Microsoft.Azure.WebJobs.Extensions.OpenApi.Core.Enums;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using Newtonsoft.Json;
 
 namespace BRIT.DevTest.Function
 {
@@ -25,7 +24,7 @@ namespace BRIT.DevTest.Function
             Mediator = mediator;
         }
 
-        public IMediator Mediator { get; }
+        private IMediator Mediator { get; }
 
         [FunctionName("InstructionCalculatorFunction")]
         [OpenApiOperation(operationId: "Run", tags: new[] { "name" })]
@@ -47,7 +46,6 @@ namespace BRIT.DevTest.Function
             catch (InstructionFormatException ex)
             {
                 log.LogWarning(ex.Message, ex);
-
                 return new BadRequestObjectResult(
                     new ProblemDetails() { 
                         Title = HttpStatusCode.BadRequest.ToString(),
@@ -59,7 +57,6 @@ namespace BRIT.DevTest.Function
             catch(Exception ex)
             {
                 log.LogError(ex.Message, ex);
-
                 return new StatusCodeResult((int)HttpStatusCode.InternalServerError);
             }
         }

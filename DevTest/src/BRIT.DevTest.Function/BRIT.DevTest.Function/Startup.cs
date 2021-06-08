@@ -6,12 +6,6 @@ using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
 using BRIT.DevTest.Function.Service.Mappers;
 using BRIT.DevTest.Function.Service.Parser;
-using Hellang.Middleware.ProblemDetails;
-using Microsoft.ApplicationInsights.DataContracts;
-using Microsoft.AspNetCore.Mvc;
-using System.Net;
-using BRIT.DevTest.Function.Service.Exceptions;
-using Microsoft.AspNetCore.Hosting;
 
 [assembly: FunctionsStartup(typeof(Startup))]
 namespace BRIT.DevTest.Function
@@ -21,7 +15,6 @@ namespace BRIT.DevTest.Function
         public override void Configure(IFunctionsHostBuilder builder)
         {
             builder.Services.AddMediatR(typeof(InstructionCalculatorRequestHandler).GetTypeInfo().Assembly);
-
             builder.Services.AddSingleton<IInstructionMapper, InstructionMapper>();
             builder.Services.AddSingleton<IInstructionParser, InstructionParser>();
         }
