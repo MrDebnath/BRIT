@@ -24,26 +24,6 @@ namespace BRIT.DevTest.Function
 
             builder.Services.AddSingleton<IInstructionMapper, InstructionMapper>();
             builder.Services.AddSingleton<IInstructionParser, InstructionParser>();
-            
-            
-            //builder.Services.AddProblemDetails(options =>
-            //{
-            //    options.IncludeExceptionDetails = (_, __) => Environment.EnvironmentName.Equals("Development");
-
-            //    options.Map<InstructionFormatException>(ex => new ProblemDetails()
-            //    {
-            //        Title = HttpStatusCode.BadRequest.ToString(),
-            //        Detail = ex.Message,
-            //        Status = (int?)HttpStatusCode.BadRequest,
-            //        Type = $"https://httpstatuses.com/{(int)HttpStatusCode.BadRequest}"
-            //    });
-
-            //    options.OnBeforeWriteDetails = (context, details) =>
-            //    {
-            //        var telemetry = context.Features.Get<RequestTelemetry>();
-            //        telemetry.Properties["ProblemDetails.Details"] = details.Detail;
-            //    };
-            //});
         }
     }
 }
