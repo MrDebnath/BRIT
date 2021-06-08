@@ -32,7 +32,7 @@ apply 5
 
 Please include unit tests and demonstrate good architectural principles. If you test the function with postman please include an export of your tests.
 
-How to Run?
+# How to Run?
 
 Close the repo and start run.
 Use postman to post a file on the endpoint - postman collection added to DevTest\postman folder.
