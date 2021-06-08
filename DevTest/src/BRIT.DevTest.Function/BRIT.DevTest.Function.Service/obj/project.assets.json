@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MediatR/9.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {}
+        }
+      },
+      "BRIT.DevTest.Function.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BRIT.DevTest.Function.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BRIT.DevTest.Function.Contracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediatR/9.0.0": {
+      "sha512": "8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "type": "package",
+      "path": "mediatr/9.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.dll",
+        "lib/net461/MediatR.xml",
+        "lib/netstandard2.0/MediatR.dll",
+        "lib/netstandard2.0/MediatR.xml",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.9.0.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "BRIT.DevTest.Function.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../BRIT.DevTest.Function.Contracts/BRIT.DevTest.Function.Contracts.csproj",
+      "msbuildProject": "../BRIT.DevTest.Function.Contracts/BRIT.DevTest.Function.Contracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "BRIT.DevTest.Function.Contracts >= 1.0.0",
+      "MediatR >= 9.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\ADebnath\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj",
+      "projectName": "BRIT.DevTest.Function.Service",
+      "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj",
+      "packagesPath": "C:\\Users\\ADebnath\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\ADebnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://pkgs.dev.azure.com/JoulesVSTS/_packaging/JoulesIntegrationNugetLibrary%40Local/nuget/v3/index.json": {},
+        "https://pkgs.dev.azure.com/tfsportima/_packaging/tfsportima%40Local/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj": {
+              "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "MediatR": {
+            "target": "Package",
+            "version": "[9.0.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Tests\\BRIT.DevTest.Function.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj",
+        "projectName": "BRIT.DevTest.Function.Contracts",
+        "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj",
+        "packagesPath": "C:\\Users\\ADebnath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADebnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JoulesVSTS/_packaging/JoulesIntegrationNugetLibrary%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tfsportima/_packaging/tfsportima%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "targetAlias": "netcoreapp2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj",
+        "projectName": "BRIT.DevTest.Function.Service",
+        "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj",
+        "packagesPath": "C:\\Users\\ADebnath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADebnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JoulesVSTS/_packaging/JoulesIntegrationNugetLibrary%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tfsportima/_packaging/tfsportima%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj": {
+                "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Contracts\\BRIT.DevTest.Function.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Tests\\BRIT.DevTest.Function.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Tests\\BRIT.DevTest.Function.Tests.csproj",
+        "projectName": "BRIT.DevTest.Function.Tests",
+        "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Tests\\BRIT.DevTest.Function.Tests.csproj",
+        "packagesPath": "C:\\Users\\ADebnath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADebnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JoulesVSTS/_packaging/JoulesIntegrationNugetLibrary%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tfsportima/_packaging/tfsportima%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj": {
+                "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.10.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            },
+            "xunit.extensibility.core": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

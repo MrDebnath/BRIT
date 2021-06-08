@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DWQJbilw+F0l+pnT8BQhDq5S3JyPf9QgMSkZMfGG7hPv5ZDi2iseJ7N3YqkV+YfpQCbM5cuWHEM5qticCLxXQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\DevTest\\src\\BRIT.DevTest.Function\\BRIT.DevTest.Function.Service\\BRIT.DevTest.Function.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADebnath\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

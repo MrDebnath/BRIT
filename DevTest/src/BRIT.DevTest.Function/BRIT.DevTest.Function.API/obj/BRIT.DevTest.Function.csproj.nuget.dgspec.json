@@ -1,0 +1,73 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\BRIT-Dev-Test\\src\\BRIT-Dev-Test-Function\\BRIT.DevTest.Function\\BRIT.DevTest.Function.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ADebnath\\source\\repos\\BRIT\\BRIT-Dev-Test\\src\\BRIT-Dev-Test-Function\\BRIT.DevTest.Function\\BRIT.DevTest.Function.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\BRIT-Dev-Test\\src\\BRIT-Dev-Test-Function\\BRIT.DevTest.Function\\BRIT.DevTest.Function.csproj",
+        "projectName": "BRIT.DevTest.Function",
+        "projectPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\BRIT-Dev-Test\\src\\BRIT-Dev-Test-Function\\BRIT.DevTest.Function\\BRIT.DevTest.Function.csproj",
+        "packagesPath": "C:\\Users\\ADebnath\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ADebnath\\source\\repos\\BRIT\\BRIT-Dev-Test\\src\\BRIT-Dev-Test-Function\\BRIT.DevTest.Function\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ADebnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/JoulesVSTS/_packaging/JoulesIntegrationNugetLibrary%40Local/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/tfsportima/_packaging/tfsportima%40Local/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

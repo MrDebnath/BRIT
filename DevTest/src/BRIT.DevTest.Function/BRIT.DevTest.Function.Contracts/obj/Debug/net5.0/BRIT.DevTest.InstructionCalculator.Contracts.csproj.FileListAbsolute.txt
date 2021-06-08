@@ -1,0 +1,11 @@
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\bin\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.deps.json
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\bin\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.dll
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\bin\Debug\net5.0\ref\BRIT.DevTest.InstructionCalculator.Contracts.dll
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\bin\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.pdb
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.AssemblyInfoInputs.cache
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.AssemblyInfo.cs
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.dll
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\ref\BRIT.DevTest.InstructionCalculator.Contracts.dll
+C:\Users\ADebnath\source\repos\BRIT\BRIT-Dev-Test\src\BRIT-Dev-Test-Function\BRIT.DevTest.InstructionCalculator.Contracts\obj\Debug\net5.0\BRIT.DevTest.InstructionCalculator.Contracts.pdb
